@@ -29,7 +29,7 @@
         <div class="offcanvas offcanvas-start mobail__sidebar" tabindex="-1" id="offcanvas__offcanvas__header__main" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header p-4">
                 <div class="header__logo">
-                    <a href=""><img src="assets/img/logo.png" alt="Header Logo"></a>
+                    <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
                 </div>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -39,7 +39,7 @@
                         <li>Open Today 10 AM-5 PM</li>
                         <li><a href="#"><span><img src="assets/icons/login-user.svg" alt="login user"></span>Member Login</a></li>
                     </ul>
-                    <ul class="menu-list d-flex align-items-center">
+                    <ul class="menu-list d-flex flex-column gap-3">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Service</a></li>
@@ -86,7 +86,9 @@
                                         <li><a href="#">Blog</a></li>
                                         <li><a href="#">Contact</a></li>
                                     </ul>
-                                    <button class="menu__trigger"><span>menu</span> <img src="assets/icons/menu-trigger.svg" alt="menu trigger"></button>
+                                    <button data-bs-toggle="offcanvas" 
+                                    data-bs-target="#offcanvas__offcanvas__header__main" 
+                                    aria-controls="offcanvas__offcanvas__header__main" class="menu__trigger"><span>menu</span> <img src="assets/icons/menu-trigger.svg" alt="menu trigger"></button>
                                 </div>
                             </div>
                         </div>                        

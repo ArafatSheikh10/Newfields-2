@@ -114,6 +114,10 @@
         font-size: 58px;
     }
 
+    .n_highlights {
+        height: 160px;
+    }
+
     .garden__image {
         height: 690px;
     }
@@ -332,6 +336,10 @@
 
     .highlights__right--image-wraper {
         gap: 30px;
+    }
+
+    .n_highlights {
+        height: 130px;
     }
 
     .garden__area {
@@ -707,6 +715,14 @@
 
 @media (min-width: 575px) and (max-width: 767px){
 
+
+    .highlights__left--image-1 {
+        height: 269px;
+    }
+
+    .highlights__left--image-2 {
+        height: 310px;
+    }
 
     .community__card-image {
         max-width: 312px;

@@ -259,6 +259,88 @@ p{
   object-fit: contain;
 }
 
+.mobail__sidebar .header__logo a img{
+  filter: brightness(0);
+}
+
+.mobail__sidebar .header__top-info {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.mobail__sidebar .header__top-info li{
+  color: #000;
+  font-weight: 500;
+}
+
+.mobail__sidebar .header__top-info li a{
+  color: #000;
+  font-weight: 500;
+}
+
+.mobail__sidebar .header__top-info li a img {
+  width: 22px;
+  height: 22px;
+  filter: brightness(0);
+}
+
+.mobail__sidebar .menu-list li a{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  transition: all .3s ease-in-out;
+}
+
+.mobail__sidebar .menu-list li a:hover{
+  color: #AED581;
+}
+
+.mobail__sidebar .donate__btn {
+  display: inline-block !important;
+  margin: 30px 0;
+}
+
+.mobail__sidebar .social__links ul {
+  gap: 20px;
+}
+
+.mobail__sidebar  .social__links ul li a {
+  border-radius: 100%;
+  font-size: 18px;
+  color: #000;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.mobail__sidebar  .social__links ul li a:hover{
+  background-color: #AED581;
+  color: #000;
+}
+
+.btn-close {
+  background-color: #AED581;
+  opacity: 1;                
+  border-radius: 4px;         
+  padding: 14px;            
+  flex-shrink: 0;
+}
+
+.btn-close:hover {
+  background-color: #000;
+  color: #fff; 
+  opacity: 1;
+}
+
+
 /* Header Area End */
 
 
@@ -683,7 +765,7 @@ p{
 
 .n_highlights{
   max-width: 220px;
-  max-height: 240px;
+  height: 240px;
   display: flex;
   align-items: center;
   justify-content: center;
