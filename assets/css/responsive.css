@@ -261,6 +261,12 @@
         height: 16px;
     }
 
+    .menu_cross {
+        width: 24px;
+        height: 16px;
+        font-size: 22px;
+    }
+
     .donate__btn {
         font-size: 15px;
         padding: 10px 16px;
