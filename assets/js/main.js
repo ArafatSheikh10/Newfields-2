@@ -5,8 +5,6 @@
     jQuery(document).ready(function ($) {
 
 
-
-
         // AOS Init
         AOS.init({
             once: true,
@@ -25,8 +23,15 @@
         $(".menu__trigger").on("click", function () {
             $(".menu-list").toggleClass("active");
         });
+        
 
+        // Trigger Btn
+        $('.menu__trigger').on('click', function() {
+          $(this).find('.menu_bar').toggle();
+          $(this).find('.menu_cross').toggleClass('active');
+        });
 
+        // Featured Wraper
         $('.featured__card--wraper').owlCarousel({
             loop:               true,
             margin:             20,
