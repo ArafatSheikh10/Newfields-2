@@ -205,6 +205,33 @@
         font-size: 20px;
     }
 
+    .mobail__sidebar {
+        max-width: 0 !important;
+        width: 0 !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        overflow: hidden !important;
+        transform: none !important; 
+        display: flex !important; 
+        transition: all 0.3s ease-in-out !important;
+    }
+    
+    .mobail__sidebar.show {
+        max-width: 400px !important;
+        width: 100% !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+      
+    .offcanvas-backdrop {
+        display: none !important;
+    }
+
+    .header__logo a {
+        max-width: 217px;
+        height: 27px;
+    }
+
     .header__menu-widget .menu-list.active {
         display: none !important;
     }
@@ -452,7 +479,7 @@
     }
 
     .header__logo a {
-        max-width: 172px;
+        max-width: 200px;
         height: 27px;
     }
 
@@ -480,7 +507,7 @@
     }
 
     .hero__area {
-        padding: 102px 0 30px;
+        padding: 120px 0 30px;
     }
 
     .hero__hedding h1 {
@@ -493,6 +520,11 @@
 
     .hero__content .primary__btn {
         margin-top: 30px;
+    }
+
+    .n__filled {
+        right: 20px;
+        bottom: 28px;
     }
 
     .statement__area {
@@ -612,6 +644,10 @@
         height: 42px;
     }
 
+    .highlights__left {
+        padding: 45px 0 12px;
+    }
+
     .highlights__left h2 {
         font-size: 38px;
     }
@@ -625,8 +661,12 @@
         height: 205px;
     }
 
+    .highlights__right-column {
+        padding-top: 0;
+    }
+
     .n_highlights {
-        height: 90px;
+        height: 105px;
     }
 
     .n_highlights img {

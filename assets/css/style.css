@@ -20,6 +20,14 @@ html, body {
 body {
   color: #000;
   margin: 0;
+  padding-right: 0 !important;
+  overflow: auto !important;
+}
+
+body.offcanvas-open, 
+body[style*="overflow: hidden"] {
+  overflow: auto !important;
+  padding-right: 0 !important;
 }
 
 li {
@@ -334,10 +342,17 @@ p{
   flex-shrink: 0;
 }
 
-.btn-close:hover {
-  background-color: #000;
-  color: #fff; 
-  opacity: 1;
+.mobail__sidebar {
+  max-width: 0 !important;
+  width: 0 !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  display: none !important;
+  transform: none !important; 
+}
+
+.offcanvas-backdrop {
+  display: none !important;
 }
 
 
